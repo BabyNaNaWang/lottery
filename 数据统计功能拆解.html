@@ -1,0 +1,1430 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>数据统计功能拆解</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/数据统计功能拆解/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/数据统计功能拆解/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u189" class="ax_default box_1">
+        <div id="u189_div" class=""></div>
+        <div id="u189_text" class="text ">
+          <p><span style="text-decoration:none;">数据统计</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u190" class="ax_default box_1">
+        <div id="u190_div" class=""></div>
+        <div id="u190_text" class="text ">
+          <p><span style="text-decoration:none;">首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u191" class="ax_default box_1">
+        <div id="u191_div" class=""></div>
+        <div id="u191_text" class="text ">
+          <p><span style="text-decoration:none;">渠道数据监控</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u192" class="ax_default box_1">
+        <div id="u192_div" class=""></div>
+        <div id="u192_text" class="text ">
+          <p><span style="text-decoration:none;">用户数据监控</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u193" class="ax_default box_1">
+        <div id="u193_div" class=""></div>
+        <div id="u193_text" class="text ">
+          <p><span style="text-decoration:none;">页面跳出率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u194" class="ax_default box_1">
+        <div id="u194_div" class=""></div>
+        <div id="u194_text" class="text ">
+          <p><span style="text-decoration:none;">领奖数据分析</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u195" class="ax_default box_1">
+        <div id="u195_div" class=""></div>
+        <div id="u195_text" class="text ">
+          <p><span style="text-decoration:none;">中奖用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u196" class="ax_default box_1">
+        <div id="u196_div" class=""></div>
+        <div id="u196_text" class="text ">
+          <p><span style="text-decoration:none;">参与形式数据监控</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u197" class="ax_default box_1">
+        <div id="u197_div" class=""></div>
+        <div id="u197_text" class="text ">
+          <p><span style="text-decoration:none;">PV</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u198" class="ax_default box_1">
+        <div id="u198_div" class=""></div>
+        <div id="u198_text" class="text ">
+          <p><span style="text-decoration:none;">UV</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u199" class="ax_default box_1">
+        <div id="u199_div" class=""></div>
+        <div id="u199_text" class="text ">
+          <p><span style="text-decoration:none;">新增用户数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u200" class="ax_default box_1">
+        <div id="u200_div" class=""></div>
+        <div id="u200_text" class="text ">
+          <p><span style="text-decoration:none;">活动总参与人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u201" class="ax_default box_1">
+        <div id="u201_div" class=""></div>
+        <div id="u201_text" class="text ">
+          <p><span style="text-decoration:none;">产出奖品个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u202" class="ax_default box_1">
+        <div id="u202_div" class=""></div>
+        <div id="u202_text" class="text ">
+          <p><span style="text-decoration:none;">已领取奖品个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u203" class="ax_default box_1">
+        <div id="u203_div" class=""></div>
+        <div id="u203_text" class="text ">
+          <p><span style="text-decoration:none;">日新增用户折线图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u204" class="ax_default box_1">
+        <div id="u204_div" class=""></div>
+        <div id="u204_text" class="text ">
+          <p><span style="text-decoration:none;">日参与用户折线图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u205" class="ax_default box_1">
+        <div id="u205_div" class=""></div>
+        <div id="u205_text" class="text ">
+          <p><span style="text-decoration:none;">渠道分类</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u206" class="ax_default box_1">
+        <div id="u206_div" class=""></div>
+        <div id="u206_text" class="text ">
+          <p><span style="text-decoration:none;">日期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u207" class="ax_default box_1">
+        <div id="u207_div" class=""></div>
+        <div id="u207_text" class="text ">
+          <p><span style="text-decoration:none;">筛选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u208" class="ax_default box_1">
+        <div id="u208_div" class=""></div>
+        <div id="u208_text" class="text ">
+          <p><span style="text-decoration:none;">序号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u209" class="ax_default box_1">
+        <div id="u209_div" class=""></div>
+        <div id="u209_text" class="text ">
+          <p><span style="text-decoration:none;">ID</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u210" class="ax_default box_1">
+        <div id="u210_div" class=""></div>
+        <div id="u210_text" class="text ">
+          <p><span style="text-decoration:none;">注册手机号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u211" class="ax_default box_1">
+        <div id="u211_div" class=""></div>
+        <div id="u211_text" class="text ">
+          <p><span style="text-decoration:none;">活动参与次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u212" class="ax_default box_1">
+        <div id="u212_div" class=""></div>
+        <div id="u212_text" class="text ">
+          <p><span style="text-decoration:none;">一度人脉</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u213" class="ax_default box_1">
+        <div id="u213_div" class=""></div>
+        <div id="u213_text" class="text ">
+          <p><span style="text-decoration:none;">二度人脉</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u214" class="ax_default box_1">
+        <div id="u214_div" class=""></div>
+        <div id="u214_text" class="text ">
+          <p><span style="text-decoration:none;">三度人脉</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u215" class="ax_default box_1">
+        <div id="u215_div" class=""></div>
+        <div id="u215_text" class="text ">
+          <p><span style="text-decoration:none;">IP</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u216" class="ax_default box_1">
+        <div id="u216_div" class=""></div>
+        <div id="u216_text" class="text ">
+          <p><span style="text-decoration:none;">位置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u217" class="ax_default box_1">
+        <div id="u217_div" class=""></div>
+        <div id="u217_text" class="text ">
+          <p><span style="text-decoration:none;">活动页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u218" class="ax_default box_1">
+        <div id="u218_div" class=""></div>
+        <div id="u218_text" class="text ">
+          <p><span style="text-decoration:none;">问答页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u219" class="ax_default box_1">
+        <div id="u219_div" class=""></div>
+        <div id="u219_text" class="text ">
+          <p><span style="text-decoration:none;">落地页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u220" class="ax_default box_1">
+        <div id="u220_div" class=""></div>
+        <div id="u220_text" class="text ">
+          <p><span style="text-decoration:none;">总领奖个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u221" class="ax_default box_1">
+        <div id="u221_div" class=""></div>
+        <div id="u221_text" class="text ">
+          <p><span style="text-decoration:none;">领奖率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u222" class="ax_default box_1">
+        <div id="u222_div" class=""></div>
+        <div id="u222_text" class="text ">
+          <p><span style="text-decoration:none;">总奖项个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u223" class="ax_default box_1">
+        <div id="u223_div" class=""></div>
+        <div id="u223_text" class="text ">
+          <p><span style="text-decoration:none;">日一等奖领奖个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u224" class="ax_default box_1">
+        <div id="u224_div" class=""></div>
+        <div id="u224_text" class="text ">
+          <p><span style="text-decoration:none;">日二等奖领奖个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u225" class="ax_default box_1">
+        <div id="u225_div" class=""></div>
+        <div id="u225_text" class="text ">
+          <p><span style="text-decoration:none;">日奖项个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u226" class="ax_default box_1">
+        <div id="u226_div" class=""></div>
+        <div id="u226_text" class="text ">
+          <p><span style="text-decoration:none;">日三等奖领奖个数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u227" class="ax_default box_1">
+        <div id="u227_div" class=""></div>
+        <div id="u227_text" class="text ">
+          <p><span style="text-decoration:none;">序号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u228" class="ax_default box_1">
+        <div id="u228_div" class=""></div>
+        <div id="u228_text" class="text ">
+          <p><span style="text-decoration:none;">手机号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u229" class="ax_default box_1">
+        <div id="u229_div" class=""></div>
+        <div id="u229_text" class="text ">
+          <p><span style="text-decoration:none;">领奖状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u230" class="ax_default box_1">
+        <img id="u230_img" class="img " src="images/数据统计功能拆解/u230.svg"/>
+        <div id="u230_text" class="text ">
+          <p><span style="text-decoration:none;">地址信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u231" class="ax_default box_1">
+        <img id="u231_img" class="img " src="images/数据统计功能拆解/u230.svg"/>
+        <div id="u231_text" class="text ">
+          <p><span style="text-decoration:none;">联系方式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u232" class="ax_default box_1">
+        <img id="u232_img" class="img " src="images/数据统计功能拆解/u230.svg"/>
+        <div id="u232_text" class="text ">
+          <p><span style="text-decoration:none;">快递编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u233" class="ax_default box_1">
+        <div id="u233_div" class=""></div>
+        <div id="u233_text" class="text ">
+          <p><span style="text-decoration:none;">一等奖</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u234" class="ax_default box_1">
+        <div id="u234_div" class=""></div>
+        <div id="u234_text" class="text ">
+          <p><span style="text-decoration:none;">二等奖</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u235" class="ax_default box_1">
+        <div id="u235_div" class=""></div>
+        <div id="u235_text" class="text ">
+          <p><span style="text-decoration:none;">三等奖</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u236" class="ax_default box_1">
+        <img id="u236_img" class="img " src="images/数据统计功能拆解/u230.svg"/>
+        <div id="u236_text" class="text ">
+          <p><span style="text-decoration:none;">发货状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u237" class="ax_default box_1">
+        <div id="u237_div" class=""></div>
+        <div id="u237_text" class="text ">
+          <p><span style="text-decoration:none;">序号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u238" class="ax_default box_1">
+        <div id="u238_div" class=""></div>
+        <div id="u238_text" class="text ">
+          <p><span style="text-decoration:none;">手机号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u239" class="ax_default box_1">
+        <div id="u239_div" class=""></div>
+        <div id="u239_text" class="text ">
+          <p><span style="text-decoration:none;">领奖状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u240" class="ax_default box_1">
+        <div id="u240_div" class=""></div>
+        <div id="u240_text" class="text ">
+          <p><span style="text-decoration:none;">领奖类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u241" class="ax_default box_1">
+        <div id="u241_div" class=""></div>
+        <div id="u241_text" class="text ">
+          <p><span style="text-decoration:none;">同二等奖</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u242" class="ax_default box_1">
+        <div id="u242_div" class=""></div>
+        <div id="u242_text" class="text ">
+          <p><span style="text-decoration:none;">日登录APP数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u243" class="ax_default box_1">
+        <div id="u243_div" class=""></div>
+        <div id="u243_text" class="text ">
+          <p><span style="text-decoration:none;">日回答问题1数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u244" class="ax_default box_1">
+        <div id="u244_div" class=""></div>
+        <div id="u244_text" class="text ">
+          <p><span style="text-decoration:none;">日回答问题2数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u245" class="ax_default box_1">
+        <div id="u245_div" class=""></div>
+        <div id="u245_text" class="text ">
+          <p><span style="text-decoration:none;">日回答问题3数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u246" class="ax_default box_1">
+        <div id="u246_div" class=""></div>
+        <div id="u246_text" class="text ">
+          <p><span style="text-decoration:none;">日邀请好友数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u247" class="ax_default _连接">
+        <img id="u247_seg0" class="img " src="images/数据统计功能拆解/u247_seg0.svg" alt="u247_seg0"/>
+        <img id="u247_seg1" class="img " src="images/数据统计功能拆解/u247_seg1.svg" alt="u247_seg1"/>
+        <img id="u247_seg2" class="img " src="images/数据统计功能拆解/u247_seg2.svg" alt="u247_seg2"/>
+        <div id="u247_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u248" class="ax_default _连接">
+        <img id="u248_seg0" class="img " src="images/数据统计功能拆解/u248_seg0.svg" alt="u248_seg0"/>
+        <img id="u248_seg1" class="img " src="images/数据统计功能拆解/u248_seg1.svg" alt="u248_seg1"/>
+        <img id="u248_seg2" class="img " src="images/数据统计功能拆解/u248_seg2.svg" alt="u248_seg2"/>
+        <div id="u248_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u249" class="ax_default _连接">
+        <img id="u249_seg0" class="img " src="images/数据统计功能拆解/u249_seg0.svg" alt="u249_seg0"/>
+        <img id="u249_seg1" class="img " src="images/数据统计功能拆解/u249_seg1.svg" alt="u249_seg1"/>
+        <img id="u249_seg2" class="img " src="images/数据统计功能拆解/u249_seg2.svg" alt="u249_seg2"/>
+        <div id="u249_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u250" class="ax_default _连接">
+        <img id="u250_seg0" class="img " src="images/数据统计功能拆解/u250_seg0.svg" alt="u250_seg0"/>
+        <img id="u250_seg1" class="img " src="images/数据统计功能拆解/u250_seg1.svg" alt="u250_seg1"/>
+        <img id="u250_seg2" class="img " src="images/数据统计功能拆解/u250_seg2.svg" alt="u250_seg2"/>
+        <div id="u250_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u251" class="ax_default _连接">
+        <img id="u251_seg0" class="img " src="images/数据统计功能拆解/u251_seg0.svg" alt="u251_seg0"/>
+        <img id="u251_seg1" class="img " src="images/数据统计功能拆解/u251_seg1.svg" alt="u251_seg1"/>
+        <img id="u251_seg2" class="img " src="images/数据统计功能拆解/u251_seg2.svg" alt="u251_seg2"/>
+        <div id="u251_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u252" class="ax_default _连接">
+        <img id="u252_seg0" class="img " src="images/数据统计功能拆解/u252_seg0.svg" alt="u252_seg0"/>
+        <img id="u252_seg1" class="img " src="images/数据统计功能拆解/u252_seg1.svg" alt="u252_seg1"/>
+        <img id="u252_seg2" class="img " src="images/数据统计功能拆解/u252_seg2.svg" alt="u252_seg2"/>
+        <div id="u252_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u253" class="ax_default _连接">
+        <img id="u253_seg0" class="img " src="images/数据统计功能拆解/u253_seg0.svg" alt="u253_seg0"/>
+        <img id="u253_seg1" class="img " src="images/数据统计功能拆解/u253_seg1.svg" alt="u253_seg1"/>
+        <img id="u253_seg2" class="img " src="images/数据统计功能拆解/u253_seg2.svg" alt="u253_seg2"/>
+        <div id="u253_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u254" class="ax_default _连接">
+        <img id="u254_seg0" class="img " src="images/数据统计功能拆解/u254_seg0.svg" alt="u254_seg0"/>
+        <img id="u254_seg1" class="img " src="images/数据统计功能拆解/u254_seg1.svg" alt="u254_seg1"/>
+        <img id="u254_seg2" class="img " src="images/数据统计功能拆解/u254_seg2.svg" alt="u254_seg2"/>
+        <div id="u254_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u255" class="ax_default _连接">
+        <img id="u255_seg0" class="img " src="images/数据统计功能拆解/u255_seg0.svg" alt="u255_seg0"/>
+        <img id="u255_seg1" class="img " src="images/数据统计功能拆解/u255_seg1.svg" alt="u255_seg1"/>
+        <img id="u255_seg2" class="img " src="images/数据统计功能拆解/u255_seg2.svg" alt="u255_seg2"/>
+        <div id="u255_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u256" class="ax_default _连接">
+        <img id="u256_seg0" class="img " src="images/数据统计功能拆解/u256_seg0.svg" alt="u256_seg0"/>
+        <img id="u256_seg1" class="img " src="images/数据统计功能拆解/u256_seg1.svg" alt="u256_seg1"/>
+        <img id="u256_seg2" class="img " src="images/数据统计功能拆解/u256_seg2.svg" alt="u256_seg2"/>
+        <div id="u256_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u257" class="ax_default _连接">
+        <img id="u257_seg0" class="img " src="images/数据统计功能拆解/u257_seg0.svg" alt="u257_seg0"/>
+        <img id="u257_seg1" class="img " src="images/数据统计功能拆解/u257_seg1.svg" alt="u257_seg1"/>
+        <img id="u257_seg2" class="img " src="images/数据统计功能拆解/u257_seg2.svg" alt="u257_seg2"/>
+        <div id="u257_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u258" class="ax_default _连接">
+        <img id="u258_seg0" class="img " src="images/数据统计功能拆解/u258_seg0.svg" alt="u258_seg0"/>
+        <img id="u258_seg1" class="img " src="images/数据统计功能拆解/u258_seg1.svg" alt="u258_seg1"/>
+        <img id="u258_seg2" class="img " src="images/数据统计功能拆解/u258_seg2.svg" alt="u258_seg2"/>
+        <div id="u258_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u259" class="ax_default _连接">
+        <img id="u259_seg0" class="img " src="images/数据统计功能拆解/u259_seg0.svg" alt="u259_seg0"/>
+        <img id="u259_seg1" class="img " src="images/数据统计功能拆解/u259_seg1.svg" alt="u259_seg1"/>
+        <img id="u259_seg2" class="img " src="images/数据统计功能拆解/u259_seg2.svg" alt="u259_seg2"/>
+        <div id="u259_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u260" class="ax_default _连接">
+        <img id="u260_seg0" class="img " src="images/数据统计功能拆解/u260_seg0.svg" alt="u260_seg0"/>
+        <img id="u260_seg1" class="img " src="images/数据统计功能拆解/u260_seg1.svg" alt="u260_seg1"/>
+        <img id="u260_seg2" class="img " src="images/数据统计功能拆解/u260_seg2.svg" alt="u260_seg2"/>
+        <div id="u260_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u261" class="ax_default _连接">
+        <img id="u261_seg0" class="img " src="images/数据统计功能拆解/u261_seg0.svg" alt="u261_seg0"/>
+        <img id="u261_seg1" class="img " src="images/数据统计功能拆解/u261_seg1.svg" alt="u261_seg1"/>
+        <img id="u261_seg2" class="img " src="images/数据统计功能拆解/u261_seg2.svg" alt="u261_seg2"/>
+        <div id="u261_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u262" class="ax_default _连接">
+        <img id="u262_seg0" class="img " src="images/数据统计功能拆解/u262_seg0.svg" alt="u262_seg0"/>
+        <div id="u262_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u263" class="ax_default _连接">
+        <img id="u263_seg0" class="img " src="images/数据统计功能拆解/u263_seg0.svg" alt="u263_seg0"/>
+        <img id="u263_seg1" class="img " src="images/数据统计功能拆解/u263_seg1.svg" alt="u263_seg1"/>
+        <img id="u263_seg2" class="img " src="images/数据统计功能拆解/u263_seg2.svg" alt="u263_seg2"/>
+        <img id="u263_seg3" class="img " src="images/数据统计功能拆解/u263_seg3.svg" alt="u263_seg3"/>
+        <div id="u263_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u264" class="ax_default _连接">
+        <img id="u264_seg0" class="img " src="images/数据统计功能拆解/u264_seg0.svg" alt="u264_seg0"/>
+        <img id="u264_seg1" class="img " src="images/数据统计功能拆解/u264_seg1.svg" alt="u264_seg1"/>
+        <img id="u264_seg2" class="img " src="images/数据统计功能拆解/u264_seg2.svg" alt="u264_seg2"/>
+        <img id="u264_seg3" class="img " src="images/数据统计功能拆解/u264_seg3.svg" alt="u264_seg3"/>
+        <div id="u264_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u265" class="ax_default _连接">
+        <img id="u265_seg0" class="img " src="images/数据统计功能拆解/u265_seg0.svg" alt="u265_seg0"/>
+        <img id="u265_seg1" class="img " src="images/数据统计功能拆解/u265_seg1.svg" alt="u265_seg1"/>
+        <img id="u265_seg2" class="img " src="images/数据统计功能拆解/u265_seg2.svg" alt="u265_seg2"/>
+        <img id="u265_seg3" class="img " src="images/数据统计功能拆解/u265_seg3.svg" alt="u265_seg3"/>
+        <div id="u265_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u266" class="ax_default _连接">
+        <img id="u266_seg0" class="img " src="images/数据统计功能拆解/u266_seg0.svg" alt="u266_seg0"/>
+        <img id="u266_seg1" class="img " src="images/数据统计功能拆解/u266_seg1.svg" alt="u266_seg1"/>
+        <img id="u266_seg2" class="img " src="images/数据统计功能拆解/u266_seg2.svg" alt="u266_seg2"/>
+        <img id="u266_seg3" class="img " src="images/数据统计功能拆解/u266_seg3.svg" alt="u266_seg3"/>
+        <div id="u266_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u267" class="ax_default _连接">
+        <img id="u267_seg0" class="img " src="images/数据统计功能拆解/u267_seg0.svg" alt="u267_seg0"/>
+        <img id="u267_seg1" class="img " src="images/数据统计功能拆解/u267_seg1.svg" alt="u267_seg1"/>
+        <img id="u267_seg2" class="img " src="images/数据统计功能拆解/u267_seg2.svg" alt="u267_seg2"/>
+        <img id="u267_seg3" class="img " src="images/数据统计功能拆解/u267_seg3.svg" alt="u267_seg3"/>
+        <div id="u267_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u268" class="ax_default _连接">
+        <img id="u268_seg0" class="img " src="images/数据统计功能拆解/u268_seg0.svg" alt="u268_seg0"/>
+        <img id="u268_seg1" class="img " src="images/数据统计功能拆解/u268_seg1.svg" alt="u268_seg1"/>
+        <img id="u268_seg2" class="img " src="images/数据统计功能拆解/u268_seg2.svg" alt="u268_seg2"/>
+        <div id="u268_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u269" class="ax_default _连接">
+        <img id="u269_seg0" class="img " src="images/数据统计功能拆解/u269_seg0.svg" alt="u269_seg0"/>
+        <img id="u269_seg1" class="img " src="images/数据统计功能拆解/u269_seg1.svg" alt="u269_seg1"/>
+        <img id="u269_seg2" class="img " src="images/数据统计功能拆解/u269_seg2.svg" alt="u269_seg2"/>
+        <div id="u269_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u270" class="ax_default _连接">
+        <img id="u270_seg0" class="img " src="images/数据统计功能拆解/u270_seg0.svg" alt="u270_seg0"/>
+        <img id="u270_seg1" class="img " src="images/数据统计功能拆解/u270_seg1.svg" alt="u270_seg1"/>
+        <img id="u270_seg2" class="img " src="images/数据统计功能拆解/u270_seg2.svg" alt="u270_seg2"/>
+        <div id="u270_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u271" class="ax_default _连接">
+        <img id="u271_seg0" class="img " src="images/数据统计功能拆解/u271_seg0.svg" alt="u271_seg0"/>
+        <img id="u271_seg1" class="img " src="images/数据统计功能拆解/u271_seg1.svg" alt="u271_seg1"/>
+        <img id="u271_seg2" class="img " src="images/数据统计功能拆解/u271_seg2.svg" alt="u271_seg2"/>
+        <div id="u271_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u272" class="ax_default _连接">
+        <img id="u272_seg0" class="img " src="images/数据统计功能拆解/u272_seg0.svg" alt="u272_seg0"/>
+        <img id="u272_seg1" class="img " src="images/数据统计功能拆解/u272_seg1.svg" alt="u272_seg1"/>
+        <img id="u272_seg2" class="img " src="images/数据统计功能拆解/u272_seg2.svg" alt="u272_seg2"/>
+        <div id="u272_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u273" class="ax_default _连接">
+        <img id="u273_seg0" class="img " src="images/数据统计功能拆解/u273_seg0.svg" alt="u273_seg0"/>
+        <img id="u273_seg1" class="img " src="images/数据统计功能拆解/u273_seg1.svg" alt="u273_seg1"/>
+        <img id="u273_seg2" class="img " src="images/数据统计功能拆解/u273_seg2.svg" alt="u273_seg2"/>
+        <div id="u273_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u274" class="ax_default _连接">
+        <img id="u274_seg0" class="img " src="images/数据统计功能拆解/u274_seg0.svg" alt="u274_seg0"/>
+        <img id="u274_seg1" class="img " src="images/数据统计功能拆解/u274_seg1.svg" alt="u274_seg1"/>
+        <img id="u274_seg2" class="img " src="images/数据统计功能拆解/u274_seg2.svg" alt="u274_seg2"/>
+        <div id="u274_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u275" class="ax_default _连接">
+        <img id="u275_seg0" class="img " src="images/数据统计功能拆解/u275_seg0.svg" alt="u275_seg0"/>
+        <img id="u275_seg1" class="img " src="images/数据统计功能拆解/u275_seg1.svg" alt="u275_seg1"/>
+        <img id="u275_seg2" class="img " src="images/数据统计功能拆解/u275_seg2.svg" alt="u275_seg2"/>
+        <div id="u275_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u276" class="ax_default _连接">
+        <img id="u276_seg0" class="img " src="images/数据统计功能拆解/u276_seg0.svg" alt="u276_seg0"/>
+        <img id="u276_seg1" class="img " src="images/数据统计功能拆解/u276_seg1.svg" alt="u276_seg1"/>
+        <img id="u276_seg2" class="img " src="images/数据统计功能拆解/u276_seg2.svg" alt="u276_seg2"/>
+        <div id="u276_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u277" class="ax_default _连接">
+        <img id="u277_seg0" class="img " src="images/数据统计功能拆解/u277_seg0.svg" alt="u277_seg0"/>
+        <img id="u277_seg1" class="img " src="images/数据统计功能拆解/u277_seg1.svg" alt="u277_seg1"/>
+        <img id="u277_seg2" class="img " src="images/数据统计功能拆解/u277_seg2.svg" alt="u277_seg2"/>
+        <div id="u277_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u278" class="ax_default _连接">
+        <img id="u278_seg0" class="img " src="images/数据统计功能拆解/u278_seg0.svg" alt="u278_seg0"/>
+        <img id="u278_seg1" class="img " src="images/数据统计功能拆解/u278_seg1.svg" alt="u278_seg1"/>
+        <img id="u278_seg2" class="img " src="images/数据统计功能拆解/u278_seg2.svg" alt="u278_seg2"/>
+        <div id="u278_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u279" class="ax_default _连接">
+        <img id="u279_seg0" class="img " src="images/数据统计功能拆解/u279_seg0.svg" alt="u279_seg0"/>
+        <img id="u279_seg1" class="img " src="images/数据统计功能拆解/u279_seg1.svg" alt="u279_seg1"/>
+        <img id="u279_seg2" class="img " src="images/数据统计功能拆解/u279_seg2.svg" alt="u279_seg2"/>
+        <div id="u279_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u280" class="ax_default _连接">
+        <img id="u280_seg0" class="img " src="images/数据统计功能拆解/u280_seg0.svg" alt="u280_seg0"/>
+        <img id="u280_seg1" class="img " src="images/数据统计功能拆解/u280_seg1.svg" alt="u280_seg1"/>
+        <img id="u280_seg2" class="img " src="images/数据统计功能拆解/u280_seg2.svg" alt="u280_seg2"/>
+        <div id="u280_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u281" class="ax_default _连接">
+        <img id="u281_seg0" class="img " src="images/数据统计功能拆解/u281_seg0.svg" alt="u281_seg0"/>
+        <img id="u281_seg1" class="img " src="images/数据统计功能拆解/u281_seg1.svg" alt="u281_seg1"/>
+        <img id="u281_seg2" class="img " src="images/数据统计功能拆解/u281_seg2.svg" alt="u281_seg2"/>
+        <div id="u281_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u282" class="ax_default _连接">
+        <img id="u282_seg0" class="img " src="images/数据统计功能拆解/u282_seg0.svg" alt="u282_seg0"/>
+        <img id="u282_seg1" class="img " src="images/数据统计功能拆解/u282_seg1.svg" alt="u282_seg1"/>
+        <img id="u282_seg2" class="img " src="images/数据统计功能拆解/u282_seg2.svg" alt="u282_seg2"/>
+        <div id="u282_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u283" class="ax_default _连接">
+        <img id="u283_seg0" class="img " src="images/数据统计功能拆解/u283_seg0.svg" alt="u283_seg0"/>
+        <img id="u283_seg1" class="img " src="images/数据统计功能拆解/u283_seg1.svg" alt="u283_seg1"/>
+        <img id="u283_seg2" class="img " src="images/数据统计功能拆解/u283_seg2.svg" alt="u283_seg2"/>
+        <div id="u283_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u284" class="ax_default _连接">
+        <img id="u284_seg0" class="img " src="images/数据统计功能拆解/u284_seg0.svg" alt="u284_seg0"/>
+        <img id="u284_seg1" class="img " src="images/数据统计功能拆解/u284_seg1.svg" alt="u284_seg1"/>
+        <img id="u284_seg2" class="img " src="images/数据统计功能拆解/u284_seg2.svg" alt="u284_seg2"/>
+        <div id="u284_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u285" class="ax_default _连接">
+        <img id="u285_seg0" class="img " src="images/数据统计功能拆解/u285_seg0.svg" alt="u285_seg0"/>
+        <img id="u285_seg1" class="img " src="images/数据统计功能拆解/u285_seg1.svg" alt="u285_seg1"/>
+        <img id="u285_seg2" class="img " src="images/数据统计功能拆解/u285_seg2.svg" alt="u285_seg2"/>
+        <div id="u285_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u286" class="ax_default _连接">
+        <img id="u286_seg0" class="img " src="images/数据统计功能拆解/u286_seg0.svg" alt="u286_seg0"/>
+        <img id="u286_seg1" class="img " src="images/数据统计功能拆解/u286_seg1.svg" alt="u286_seg1"/>
+        <img id="u286_seg2" class="img " src="images/数据统计功能拆解/u286_seg2.svg" alt="u286_seg2"/>
+        <div id="u286_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u287" class="ax_default _连接">
+        <img id="u287_seg0" class="img " src="images/数据统计功能拆解/u287_seg0.svg" alt="u287_seg0"/>
+        <img id="u287_seg1" class="img " src="images/数据统计功能拆解/u287_seg1.svg" alt="u287_seg1"/>
+        <img id="u287_seg2" class="img " src="images/数据统计功能拆解/u287_seg2.svg" alt="u287_seg2"/>
+        <div id="u287_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u288" class="ax_default _连接">
+        <img id="u288_seg0" class="img " src="images/数据统计功能拆解/u288_seg0.svg" alt="u288_seg0"/>
+        <img id="u288_seg1" class="img " src="images/数据统计功能拆解/u288_seg1.svg" alt="u288_seg1"/>
+        <img id="u288_seg2" class="img " src="images/数据统计功能拆解/u288_seg2.svg" alt="u288_seg2"/>
+        <div id="u288_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u289" class="ax_default _连接">
+        <img id="u289_seg0" class="img " src="images/数据统计功能拆解/u289_seg0.svg" alt="u289_seg0"/>
+        <img id="u289_seg1" class="img " src="images/数据统计功能拆解/u289_seg1.svg" alt="u289_seg1"/>
+        <img id="u289_seg2" class="img " src="images/数据统计功能拆解/u289_seg2.svg" alt="u289_seg2"/>
+        <div id="u289_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u290" class="ax_default _连接">
+        <img id="u290_seg0" class="img " src="images/数据统计功能拆解/u290_seg0.svg" alt="u290_seg0"/>
+        <div id="u290_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u291" class="ax_default _连接">
+        <img id="u291_seg0" class="img " src="images/数据统计功能拆解/u291_seg0.svg" alt="u291_seg0"/>
+        <img id="u291_seg1" class="img " src="images/数据统计功能拆解/u291_seg1.svg" alt="u291_seg1"/>
+        <img id="u291_seg2" class="img " src="images/数据统计功能拆解/u291_seg2.svg" alt="u291_seg2"/>
+        <div id="u291_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u292" class="ax_default _连接">
+        <img id="u292_seg0" class="img " src="images/数据统计功能拆解/u292_seg0.svg" alt="u292_seg0"/>
+        <img id="u292_seg1" class="img " src="images/数据统计功能拆解/u292_seg1.svg" alt="u292_seg1"/>
+        <img id="u292_seg2" class="img " src="images/数据统计功能拆解/u292_seg2.svg" alt="u292_seg2"/>
+        <div id="u292_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u293" class="ax_default _连接">
+        <img id="u293_seg0" class="img " src="images/数据统计功能拆解/u293_seg0.svg" alt="u293_seg0"/>
+        <img id="u293_seg1" class="img " src="images/数据统计功能拆解/u293_seg1.svg" alt="u293_seg1"/>
+        <img id="u293_seg2" class="img " src="images/数据统计功能拆解/u293_seg2.svg" alt="u293_seg2"/>
+        <div id="u293_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u294" class="ax_default _连接">
+        <img id="u294_seg0" class="img " src="images/数据统计功能拆解/u294_seg0.svg" alt="u294_seg0"/>
+        <img id="u294_seg1" class="img " src="images/数据统计功能拆解/u294_seg1.svg" alt="u294_seg1"/>
+        <img id="u294_seg2" class="img " src="images/数据统计功能拆解/u294_seg2.svg" alt="u294_seg2"/>
+        <div id="u294_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u295" class="ax_default _连接">
+        <img id="u295_seg0" class="img " src="images/数据统计功能拆解/u295_seg0.svg" alt="u295_seg0"/>
+        <img id="u295_seg1" class="img " src="images/数据统计功能拆解/u295_seg1.svg" alt="u295_seg1"/>
+        <img id="u295_seg2" class="img " src="images/数据统计功能拆解/u295_seg2.svg" alt="u295_seg2"/>
+        <div id="u295_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u296" class="ax_default _连接">
+        <img id="u296_seg0" class="img " src="images/数据统计功能拆解/u296_seg0.svg" alt="u296_seg0"/>
+        <img id="u296_seg1" class="img " src="images/数据统计功能拆解/u296_seg1.svg" alt="u296_seg1"/>
+        <img id="u296_seg2" class="img " src="images/数据统计功能拆解/u296_seg2.svg" alt="u296_seg2"/>
+        <div id="u296_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u297" class="ax_default _连接">
+        <img id="u297_seg0" class="img " src="images/数据统计功能拆解/u297_seg0.svg" alt="u297_seg0"/>
+        <img id="u297_seg1" class="img " src="images/数据统计功能拆解/u297_seg1.svg" alt="u297_seg1"/>
+        <img id="u297_seg2" class="img " src="images/数据统计功能拆解/u297_seg2.svg" alt="u297_seg2"/>
+        <div id="u297_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u298" class="ax_default _连接">
+        <img id="u298_seg0" class="img " src="images/数据统计功能拆解/u298_seg0.svg" alt="u298_seg0"/>
+        <img id="u298_seg1" class="img " src="images/数据统计功能拆解/u298_seg1.svg" alt="u298_seg1"/>
+        <img id="u298_seg2" class="img " src="images/数据统计功能拆解/u298_seg2.svg" alt="u298_seg2"/>
+        <div id="u298_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u299" class="ax_default _连接">
+        <img id="u299_seg0" class="img " src="images/数据统计功能拆解/u299_seg0.svg" alt="u299_seg0"/>
+        <img id="u299_seg1" class="img " src="images/数据统计功能拆解/u299_seg1.svg" alt="u299_seg1"/>
+        <img id="u299_seg2" class="img " src="images/数据统计功能拆解/u299_seg2.svg" alt="u299_seg2"/>
+        <div id="u299_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u300" class="ax_default _连接">
+        <img id="u300_seg0" class="img " src="images/数据统计功能拆解/u300_seg0.svg" alt="u300_seg0"/>
+        <img id="u300_seg1" class="img " src="images/数据统计功能拆解/u300_seg1.svg" alt="u300_seg1"/>
+        <img id="u300_seg2" class="img " src="images/数据统计功能拆解/u300_seg2.svg" alt="u300_seg2"/>
+        <div id="u300_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u301" class="ax_default _连接">
+        <img id="u301_seg0" class="img " src="images/数据统计功能拆解/u301_seg0.svg" alt="u301_seg0"/>
+        <img id="u301_seg1" class="img " src="images/数据统计功能拆解/u301_seg1.svg" alt="u301_seg1"/>
+        <img id="u301_seg2" class="img " src="images/数据统计功能拆解/u301_seg2.svg" alt="u301_seg2"/>
+        <div id="u301_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u302" class="ax_default box_1">
+        <div id="u302_div" class=""></div>
+        <div id="u302_text" class="text ">
+          <p><span style="text-decoration:none;">日PV折线图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u303" class="ax_default box_1">
+        <div id="u303_div" class=""></div>
+        <div id="u303_text" class="text ">
+          <p><span style="text-decoration:none;">日UV折线图</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u304" class="ax_default _连接">
+        <img id="u304_seg0" class="img " src="images/数据统计功能拆解/u304_seg0.svg" alt="u304_seg0"/>
+        <img id="u304_seg1" class="img " src="images/数据统计功能拆解/u304_seg1.svg" alt="u304_seg1"/>
+        <img id="u304_seg2" class="img " src="images/数据统计功能拆解/u304_seg2.svg" alt="u304_seg2"/>
+        <div id="u304_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u305" class="ax_default _连接">
+        <img id="u305_seg0" class="img " src="images/数据统计功能拆解/u305_seg0.svg" alt="u305_seg0"/>
+        <img id="u305_seg1" class="img " src="images/数据统计功能拆解/u305_seg1.svg" alt="u305_seg1"/>
+        <img id="u305_seg2" class="img " src="images/数据统计功能拆解/u305_seg2.svg" alt="u305_seg2"/>
+        <div id="u305_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u306" class="ax_default box_1">
+        <div id="u306_div" class=""></div>
+        <div id="u306_text" class="text ">
+          <p><span style="text-decoration:none;">PV</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u307" class="ax_default _连接">
+        <img id="u307_seg0" class="img " src="images/数据统计功能拆解/u307_seg0.svg" alt="u307_seg0"/>
+        <img id="u307_seg1" class="img " src="images/数据统计功能拆解/u307_seg1.svg" alt="u307_seg1"/>
+        <img id="u307_seg2" class="img " src="images/数据统计功能拆解/u307_seg2.svg" alt="u307_seg2"/>
+        <div id="u307_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u308" class="ax_default box_1">
+        <div id="u308_div" class=""></div>
+        <div id="u308_text" class="text ">
+          <p><span style="text-decoration:none;">点击次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u309" class="ax_default box_1">
+        <div id="u309_div" class=""></div>
+        <div id="u309_text" class="text ">
+          <p><span style="text-decoration:none;">点击率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u310" class="ax_default box_1">
+        <div id="u310_div" class=""></div>
+        <div id="u310_text" class="text ">
+          <p><span style="text-decoration:none;">访问次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u311" class="ax_default box_1">
+        <div id="u311_div" class=""></div>
+        <div id="u311_text" class="text ">
+          <p><span style="text-decoration:none;">跳出率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u312" class="ax_default _连接">
+        <img id="u312_seg0" class="img " src="images/数据统计功能拆解/u312_seg0.svg" alt="u312_seg0"/>
+        <img id="u312_seg1" class="img " src="images/数据统计功能拆解/u312_seg1.svg" alt="u312_seg1"/>
+        <img id="u312_seg2" class="img " src="images/数据统计功能拆解/u312_seg2.svg" alt="u312_seg2"/>
+        <div id="u312_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u313" class="ax_default _连接">
+        <img id="u313_seg0" class="img " src="images/数据统计功能拆解/u313_seg0.svg" alt="u313_seg0"/>
+        <img id="u313_seg1" class="img " src="images/数据统计功能拆解/u313_seg1.svg" alt="u313_seg1"/>
+        <img id="u313_seg2" class="img " src="images/数据统计功能拆解/u313_seg2.svg" alt="u313_seg2"/>
+        <div id="u313_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u314" class="ax_default _连接">
+        <img id="u314_seg0" class="img " src="images/数据统计功能拆解/u314_seg0.svg" alt="u314_seg0"/>
+        <img id="u314_seg1" class="img " src="images/数据统计功能拆解/u314_seg1.svg" alt="u314_seg1"/>
+        <img id="u314_seg2" class="img " src="images/数据统计功能拆解/u314_seg2.svg" alt="u314_seg2"/>
+        <div id="u314_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u315" class="ax_default _连接">
+        <img id="u315_seg0" class="img " src="images/数据统计功能拆解/u315_seg0.svg" alt="u315_seg0"/>
+        <img id="u315_seg1" class="img " src="images/数据统计功能拆解/u315_seg1.svg" alt="u315_seg1"/>
+        <img id="u315_seg2" class="img " src="images/数据统计功能拆解/u315_seg2.svg" alt="u315_seg2"/>
+        <div id="u315_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u316" class="ax_default box_1">
+        <div id="u316_div" class=""></div>
+        <div id="u316_text" class="text ">
+          <p><span style="text-decoration:none;">点击次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u317" class="ax_default box_1">
+        <div id="u317_div" class=""></div>
+        <div id="u317_text" class="text ">
+          <p><span style="text-decoration:none;">点击率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u318" class="ax_default box_1">
+        <div id="u318_div" class=""></div>
+        <div id="u318_text" class="text ">
+          <p><span style="text-decoration:none;">访问次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u319" class="ax_default box_1">
+        <div id="u319_div" class=""></div>
+        <div id="u319_text" class="text ">
+          <p><span style="text-decoration:none;">跳出率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u320" class="ax_default _连接">
+        <img id="u320_seg0" class="img " src="images/数据统计功能拆解/u320_seg0.svg" alt="u320_seg0"/>
+        <img id="u320_seg1" class="img " src="images/数据统计功能拆解/u320_seg1.svg" alt="u320_seg1"/>
+        <img id="u320_seg2" class="img " src="images/数据统计功能拆解/u320_seg2.svg" alt="u320_seg2"/>
+        <div id="u320_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u321" class="ax_default _连接">
+        <img id="u321_seg0" class="img " src="images/数据统计功能拆解/u321_seg0.svg" alt="u321_seg0"/>
+        <img id="u321_seg1" class="img " src="images/数据统计功能拆解/u321_seg1.svg" alt="u321_seg1"/>
+        <img id="u321_seg2" class="img " src="images/数据统计功能拆解/u321_seg2.svg" alt="u321_seg2"/>
+        <div id="u321_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u322" class="ax_default _连接">
+        <img id="u322_seg0" class="img " src="images/数据统计功能拆解/u322_seg0.svg" alt="u322_seg0"/>
+        <img id="u322_seg1" class="img " src="images/数据统计功能拆解/u322_seg1.svg" alt="u322_seg1"/>
+        <img id="u322_seg2" class="img " src="images/数据统计功能拆解/u322_seg2.svg" alt="u322_seg2"/>
+        <div id="u322_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u323" class="ax_default _连接">
+        <img id="u323_seg0" class="img " src="images/数据统计功能拆解/u323_seg0.svg" alt="u323_seg0"/>
+        <img id="u323_seg1" class="img " src="images/数据统计功能拆解/u323_seg1.svg" alt="u323_seg1"/>
+        <img id="u323_seg2" class="img " src="images/数据统计功能拆解/u323_seg2.svg" alt="u323_seg2"/>
+        <div id="u323_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u324" class="ax_default box_1">
+        <div id="u324_div" class=""></div>
+        <div id="u324_text" class="text ">
+          <p><span style="text-decoration:none;">点击次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u325" class="ax_default box_1">
+        <div id="u325_div" class=""></div>
+        <div id="u325_text" class="text ">
+          <p><span style="text-decoration:none;">点击率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u326" class="ax_default box_1">
+        <div id="u326_div" class=""></div>
+        <div id="u326_text" class="text ">
+          <p><span style="text-decoration:none;">访问次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u327" class="ax_default box_1">
+        <div id="u327_div" class=""></div>
+        <div id="u327_text" class="text ">
+          <p><span style="text-decoration:none;">跳出率</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u328" class="ax_default _连接">
+        <img id="u328_seg0" class="img " src="images/数据统计功能拆解/u328_seg0.svg" alt="u328_seg0"/>
+        <img id="u328_seg1" class="img " src="images/数据统计功能拆解/u328_seg1.svg" alt="u328_seg1"/>
+        <img id="u328_seg2" class="img " src="images/数据统计功能拆解/u328_seg2.svg" alt="u328_seg2"/>
+        <div id="u328_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u329" class="ax_default _连接">
+        <img id="u329_seg0" class="img " src="images/数据统计功能拆解/u329_seg0.svg" alt="u329_seg0"/>
+        <img id="u329_seg1" class="img " src="images/数据统计功能拆解/u329_seg1.svg" alt="u329_seg1"/>
+        <img id="u329_seg2" class="img " src="images/数据统计功能拆解/u329_seg2.svg" alt="u329_seg2"/>
+        <div id="u329_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u330" class="ax_default _连接">
+        <img id="u330_seg0" class="img " src="images/数据统计功能拆解/u330_seg0.svg" alt="u330_seg0"/>
+        <img id="u330_seg1" class="img " src="images/数据统计功能拆解/u330_seg1.svg" alt="u330_seg1"/>
+        <img id="u330_seg2" class="img " src="images/数据统计功能拆解/u330_seg2.svg" alt="u330_seg2"/>
+        <div id="u330_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u331" class="ax_default _连接">
+        <img id="u331_seg0" class="img " src="images/数据统计功能拆解/u331_seg0.svg" alt="u331_seg0"/>
+        <img id="u331_seg1" class="img " src="images/数据统计功能拆解/u331_seg1.svg" alt="u331_seg1"/>
+        <img id="u331_seg2" class="img " src="images/数据统计功能拆解/u331_seg2.svg" alt="u331_seg2"/>
+        <div id="u331_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u332" class="ax_default _连接">
+        <img id="u332_seg0" class="img " src="images/数据统计功能拆解/u332_seg0.svg" alt="u332_seg0"/>
+        <img id="u332_seg1" class="img " src="images/数据统计功能拆解/u332_seg1.svg" alt="u332_seg1"/>
+        <img id="u332_seg2" class="img " src="images/数据统计功能拆解/u332_seg2.svg" alt="u332_seg2"/>
+        <div id="u332_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u333" class="ax_default _连接">
+        <img id="u333_seg0" class="img " src="images/数据统计功能拆解/u333_seg0.svg" alt="u333_seg0"/>
+        <img id="u333_seg1" class="img " src="images/数据统计功能拆解/u333_seg1.svg" alt="u333_seg1"/>
+        <img id="u333_seg2" class="img " src="images/数据统计功能拆解/u333_seg2.svg" alt="u333_seg2"/>
+        <div id="u333_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u334" class="ax_default box_1">
+        <div id="u334_div" class=""></div>
+        <div id="u334_text" class="text ">
+          <p><span style="text-decoration:none;">日活动参与人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u335" class="ax_default _连接">
+        <img id="u335_seg0" class="img " src="images/数据统计功能拆解/u335_seg0.svg" alt="u335_seg0"/>
+        <img id="u335_seg1" class="img " src="images/数据统计功能拆解/u335_seg1.svg" alt="u335_seg1"/>
+        <img id="u335_seg2" class="img " src="images/数据统计功能拆解/u335_seg2.svg" alt="u335_seg2"/>
+        <div id="u335_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u336" class="ax_default box_1">
+        <div id="u336_div" class=""></div>
+        <div id="u336_text" class="text ">
+          <p><span style="text-decoration:none;">UV</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u337" class="ax_default box_1">
+        <div id="u337_div" class=""></div>
+        <div id="u337_text" class="text ">
+          <p><span style="text-decoration:none;">日新增用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u338" class="ax_default box_1">
+        <div id="u338_div" class=""></div>
+        <div id="u338_text" class="text ">
+          <p><span style="text-decoration:none;">参与人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u339" class="ax_default _连接">
+        <img id="u339_seg0" class="img " src="images/数据统计功能拆解/u339_seg0.svg" alt="u339_seg0"/>
+        <img id="u339_seg1" class="img " src="images/数据统计功能拆解/u339_seg1.svg" alt="u339_seg1"/>
+        <img id="u339_seg2" class="img " src="images/数据统计功能拆解/u339_seg2.svg" alt="u339_seg2"/>
+        <div id="u339_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u340" class="ax_default _连接">
+        <img id="u340_seg0" class="img " src="images/数据统计功能拆解/u340_seg0.svg" alt="u340_seg0"/>
+        <img id="u340_seg1" class="img " src="images/数据统计功能拆解/u340_seg1.svg" alt="u340_seg1"/>
+        <img id="u340_seg2" class="img " src="images/数据统计功能拆解/u340_seg2.svg" alt="u340_seg2"/>
+        <div id="u340_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u341" class="ax_default _连接">
+        <img id="u341_seg0" class="img " src="images/数据统计功能拆解/u341_seg0.svg" alt="u341_seg0"/>
+        <img id="u341_seg1" class="img " src="images/数据统计功能拆解/u341_seg1.svg" alt="u341_seg1"/>
+        <img id="u341_seg2" class="img " src="images/数据统计功能拆解/u341_seg2.svg" alt="u341_seg2"/>
+        <div id="u341_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
